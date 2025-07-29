@@ -1,0 +1,124 @@
+[04-Nov-2024 21:21:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[24-Jan-2025 15:16:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[25-Jan-2025 08:19:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[31-Jan-2025 13:54:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[01-Feb-2025 17:41:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[02-Feb-2025 17:43:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[06-Feb-2025 18:06:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[17-Feb-2025 20:20:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[02-Apr-2025 01:46:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[02-Apr-2025 12:40:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[04-Apr-2025 16:35:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[14-Jun-2025 22:50:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[15-Jun-2025 21:36:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[15-Jun-2025 21:36:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[17-Jun-2025 14:29:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[17-Jun-2025 14:30:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/broadcasting.php on line 18
+[17-Jun-2025 14:30:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/cache.php on line 18
+[17-Jun-2025 14:30:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[17-Jun-2025 14:31:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/filesystems.php on line 16
+[17-Jun-2025 14:32:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/queue.php on line 16
+[17-Jun-2025 14:32:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/services.php on line 18
+[17-Jun-2025 14:32:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/session.php on line 21
+[17-Jun-2025 14:32:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home1/infinity/verofoodsco.com/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/view.php on line 17
+[19-Jun-2025 22:55:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[19-Jun-2025 22:55:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[21-Jun-2025 23:20:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[21-Jun-2025 23:20:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[30-Jun-2025 08:44:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[30-Jun-2025 08:45:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16
+[03-Jul-2025 02:35:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/database.php on line 18
+[03-Jul-2025 02:36:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/infinity/verofoodsco.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/config/app.php on line 16

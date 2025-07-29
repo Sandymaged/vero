@@ -1,0 +1,104 @@
+.revslider-initialised .case-arrows1.tparrows {
+    width: 74px;
+    height: 50px;
+    background: 0 0;
+}
+
+.revslider-initialised .case-arrows1.tparrows.tp-rightarrow:before {
+    left: 0;
+    background-color: rgba(255, 174, 102, 0.6);
+}
+
+.revslider-initialised .case-arrows1.tparrows:before {
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    border-radius: 50px;
+}
+
+.revslider-initialised .case-arrows1.tparrows.tp-leftarrow:before {
+    background-color: rgba(174, 232, 56, 0.6);
+    right: 0;
+}
+
+.revslider-initialised .case-arrows1.tparrows:after {
+    content: "";
+    width: 49px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -khtml-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    background: url(../images/icon/slider-arrow1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.revslider-initialised .case-arrows1.tparrows.tp-rightarrow:before {
+    left: 0;
+    background-color: rgba(255, 174, 102, 0.6);
+}
+
+.revslider-initialised .case-arrows1.tparrows.tp-rightarrow:after {
+    right: 0;
+    -webkit-transform: scaleX(-1) translate(0, -50%);
+    -khtml-transform: scaleX(-1) translate(0, -50%);
+    transform: scaleX(-1) translate(0, -50%);
+}
+
+/*---------------------------------------------------- */
+/*Responsive area*/
+/*----------------------------------------------------*/
+@media screen and (max-width: 1440px) {
+    .revslider-initialised .case-arrows1.tparrows {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .revslider-initialised .case-arrows1.tparrows {
+        display: none;
+    }
+
+}
+
+.slick-slide img {
+    display: initial !important;
+}
+
+.slick-slide div {
+    text-align: center;
+}
+
+.ltn__category-area {
+    background-image: url(../images/categories-background/cat-bg.jpeg);
+}
+
+.sub-title {
+    font-family: "Architects Daughter", cursive;
+    position: relative;
+    padding: 0px 20px;
+}
+
+.sub-title:before {
+    top: 23px;
+    left: 0;
+    content: "~";
+    font-size: 24px;
+    position: absolute;
+}
+
+.sub-title:after {
+    top: 23px;
+    right: 0;
+    content: "~";
+    font-size: 24px;
+    position: absolute;
+}
+
+.ltn__section-title-2 .section-title {
+    font-size: 60px;
+}

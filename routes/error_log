@@ -1,0 +1,4 @@
+[02-Apr-2025 12:40:49 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home1/infinity/verofoodsco.com/routes/web.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/infinity/verofoodsco.com/routes/web.php on line 16

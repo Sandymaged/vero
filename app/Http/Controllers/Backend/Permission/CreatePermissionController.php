@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Http\Controllers\Backend\Permission;
+
+use App\Adapters\ViewModels\HttpResponseIViewModel;
+use App\Domain\UseCases\Permission\CreatePermission\CreatePermissionRequestModel;
+use App\Domain\UseCases\Permission\CreatePermission\ICreatePermissionInputPort;
+use App\Http\Controllers\Backend\AppBaseController;
+use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response as HttpResponse;
+
+class CreatePermissionController extends AppBaseController
+{
+    private $interactor;
+
+    public function __construct(
+        ICreatePermissionInputPort $interactor
+    )
+    {
+        $this->interactor = $interactor;
+
+        parent::__construct();
+    }
+
+    public function __invoke(Request $request): ?HttpResponse
+    {
+        $viewModel = $this->interactor->createPermission(
+            new CreatePermissionRequestModel()
+        );
+
+        // we can't force the interactor to return an HttpResponseIViewModel
+        // so we need a simple check (or PHPStan will yell)
+        if ($viewModel instanceof HttpResponseIViewModel) {
+            return $viewModel->getResponse();
+        }
+
+        return null;
+    }
+}
