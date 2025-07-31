@@ -19,6 +19,7 @@
                 <div class="w-lg-500px bg-body rounded shadow-sm p-10 p-lg-15 mx-auto">
                     <!--begin::Form-->
                 {!! Form::open(['route' => $url.'.auth.login', 'class' => 'form w-100', 'id'=>"kt_sign_in_form", 'novalidate'=>"novalidate"]) !!}
+                {!! csrf_field() !!}
                 <!-- {!!  GoogleReCaptchaV3::renderField('login_id','login_action') !!} -->
                 <!--begin::Heading-->
                     <div class="text-center mb-10">
