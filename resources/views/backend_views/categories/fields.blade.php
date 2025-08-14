@@ -54,7 +54,6 @@
     </div>
     <!--end::Input group-->
 
-    @include('backend_views.categories.partials.subcategory_fields')
 
 </div>
 <!--end::Card body-->

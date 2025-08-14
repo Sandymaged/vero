@@ -1,12 +1,3 @@
-/*@font-face {*/
-/*    font-family: "font towl";*/
-/*    src: url("../fonts/twol/ge_ss_two_light.ttf") format("truetype"), url("../fonts/twol/ge_ss_two_light.otf") format("opentype");*/
-/*}*/
-
-/*body {*/
-/*    font: 15px "font towl", Arial, Helvetica, sans-serif !important;*/
-/*}*/
-
 @import url(https://fonts.googleapis.com/css?family=Cairo);
 
 body *:not(.fa, .glyphicon) {

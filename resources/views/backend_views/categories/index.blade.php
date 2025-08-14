@@ -22,7 +22,6 @@
     <div class="card-header border-0 pt-6">
         <!--begin::Card title-->
         <div class="card-title">
-            @include('backend_views.categories.partials.search')
         </div>
         <!--begin::Card title-->
         <!--begin::Card toolbar-->

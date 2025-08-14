@@ -23,13 +23,13 @@
     <!--begin::Input group-->
     <div class="row mb-6">
         <!--begin::Label-->
-    {!! Form::label('parent_id', trans("messages.attributes.category"), ['class' => 'col-lg-4 col-form-label fw-bold fs-6 required']) !!}
+    {!! Form::label('parent_id', trans("messages.attributes.Category"), ['class' => 'col-lg-4 col-form-label fw-bold fs-6 required']) !!}
     <!--end::Label-->
         <!--begin::Col-->
         <div class="col-lg-8 fv-row ">
             <!--begin::Input-->
             {!! Form::select('parent_id', $categories, null, ['class' => 'form-select '.($errors->has('parent_id') ? 'is-invalid':'').' form-select-solid form-select-lg fw-bold',
-'aria-label'=>trans('messages.select').' '.trans('messages.attributes.category'), 'data-control'=>"select2", 'data-language' => app()->getLocale(), 'data-placeholder'=>trans('messages.select').' '.trans('messages.attributes.category').'...', 'required']) !!}
+'aria-label'=>trans('messages.select').' '.trans('messages.attributes.Category'), 'data-control'=>"select2", 'data-language' => app()->getLocale(), 'data-placeholder'=>trans('messages.select').' '.trans('messages.attributes.category').'...', 'required']) !!}
             @if ($errors->has('parent_id'))
                 <div class="invalid-feedback">
                     {{ $errors->first('parent_id') }}

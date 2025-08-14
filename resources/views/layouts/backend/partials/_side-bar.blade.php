@@ -21,17 +21,12 @@
 
                 
 
-                @include('layouts.backend.partials.sidebar_menu.merchants')
 
-                @include('layouts.backend.partials.sidebar_menu.offers')
 
                 @include('layouts.backend.partials.sidebar_menu.settings')
 
-                @include('layouts.backend.partials.sidebar_menu.reports')
 
-                @include('layouts.backend.partials.sidebar_menu.reservations')
 
-                @include('layouts.backend.partials.sidebar_menu.sales')
 
                 @include('layouts.backend.partials.sidebar_menu.clients') 
 

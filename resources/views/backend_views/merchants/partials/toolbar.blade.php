@@ -33,9 +33,7 @@
                     <label class="form-label fs-5 fw-bold mb-3">{{trans('messages.attributes.states')}}:</label>
                     <!--end::Label-->
                     <!--begin::Input-->
-                {!! Form::select('state_id', $states, [], ['class' => 'form-select form-select-solid fw-bolder filter-input', 'data-kt-select2'=>"true", 'name'=>"states",
-                            'id'=>"state_id", 'data-placeholder'=>trans('messages.select').' '.trans('messages.attributes.states'), 'data-allow-clear'=>false,
-                            'data-dropdown-parent'=>"#kt-toolbar-filter"]) !!}
+               
                 <!--end::Input-->
                 </div>
                 <!--end::Input group-->

@@ -1,7 +1,7 @@
 @extends('layouts.backend.app')
 
 @section('title')
-    {{trans('messages.create').' '.trans('messages.attributes.Merchant')}}
+    {{trans('messages.create').' '.trans('messages.attributes.Markets')}}
 @stop
 
 @include('backend_views.merchants.css')
@@ -9,8 +9,8 @@
 @section('content')
 
 @section('toolbar')
-    @include('layouts.commons.toolbar', ['current' => trans('messages.create').' '.trans('messages.attributes.Merchant'),
-'parent' => ['url' => route($guard.'.merchants.index'), 'name' =>  trans('messages.attributes.merchants'),]])
+    @include('layouts.commons.toolbar', ['current' => trans('messages.create').' '.trans('messages.attributes.Market'),
+'parent' => ['url' => route($guard.'.merchants.index'), 'name' =>  trans('messages.attributes.Markets'),]])
 @stop
 
 <!--begin::Card-->
@@ -19,7 +19,7 @@
     <div class="card-header border-0 cursor-pointer" >
         <!--begin::Card title-->
         <div class="card-title m-0">
-            <h3 class="fw-bolder m-0">{{trans('messages.create').' '.trans('messages.attributes.Merchant')}}</h3>
+            <h3 class="fw-bolder m-0">{{trans('messages.create').' '.trans('messages.attributes.Market')}}</h3>
         </div>
         <!--end::Card title-->
     </div>

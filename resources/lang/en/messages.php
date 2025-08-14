@@ -370,8 +370,16 @@
     'discard' => 'Discard',
     'filter' => 'Filter',
     'actions' => 'Actions',
+    'Brands'=>'Brands',
+    'Markets'=>'Markets',
 
     'attributes' => [
+        'Markets'=>'Markets',
+        'Market'=>'Market',
+        'Product'=>'Product',
+        'Products'=>'Products',
+        'description' => 'Description',
+
         'name' => 'Name',
         'email' => 'Email',
         'password' => 'Password',
@@ -455,6 +463,13 @@
         'Admin' => 'Admin',
         'Permission' => 'Permission',
         'ACTIONS' => 'ACTIONS',
+        'Body'=>'Body',
+        'About-us'=>'About-us',
+        'Title'=>'Title',
+        'Market'=>'Market',
+        'Brand'=>'Brand',
+        'Brands'=>'Brands',
+
     ],
 
     'users' => [

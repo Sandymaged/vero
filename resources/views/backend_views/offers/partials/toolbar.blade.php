@@ -1,5 +1,5 @@
 <!--begin::Toolbar-->
-<div class="d-flex justify-content-end" data-kt-customer-table-toolbar="base">
+<div class="d-flex justify-content-end mr-1" data-kt-customer-table-toolbar="base">
     <!--begin::Add customer-->
     <a href="{{route($guard.'.offers.create')}}"
        class="btn btn-primary">
@@ -9,7 +9,7 @@
 														<rect x="4.36396" y="11.364" width="16" height="2" rx="1" fill="black"></rect>
 													</svg>
 												</span>
-        {{trans('messages.add')}} {{trans('messages.attributes.Offer')}}</a>
+        {{trans('messages.add')}} {{trans('messages.attributes.Product')}}</a>
 
     <!--end::Add customer-->
 </div>

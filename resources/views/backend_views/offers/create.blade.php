@@ -1,7 +1,7 @@
 @extends('layouts.backend.app')
 
 @section('title')
-    {{trans('messages.create').' '.trans('messages.attributes.Offer')}}
+    {{trans('messages.create').' '.trans('messages.attributes.Product')}}
 @stop
 
 @include('backend_views.offers.css')
@@ -9,8 +9,8 @@
 @section('content')
 
 @section('toolbar')
-    @include('layouts.commons.toolbar', ['current' => trans('messages.create').' '.trans('messages.attributes.Offer'),
-'parent' => ['url' => route($guard.'.offers.index'), 'name' =>  trans('messages.attributes.offers'),]])
+    @include('layouts.commons.toolbar', ['current' => trans('messages.create').' '.trans('messages.attributes.Product'),
+'parent' => ['url' => route($guard.'.offers.index'), 'name' =>  trans('messages.attributes.Products'),]])
 @stop
 
 <!--begin::Card-->
@@ -19,7 +19,7 @@
     <div class="card-header border-0 cursor-pointer" >
         <!--begin::Card title-->
         <div class="card-title m-0">
-            <h3 class="fw-bolder m-0">{{trans('messages.create').' '.trans('messages.attributes.Offer')}}</h3>
+            <h3 class="fw-bolder m-0">{{trans('messages.create').' '.trans('messages.attributes.Product')}}</h3>
         </div>
         <!--end::Card title-->
     </div>

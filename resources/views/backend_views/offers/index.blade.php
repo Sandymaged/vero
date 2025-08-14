@@ -1,7 +1,7 @@
 @extends('layouts.backend.app')
 
 @section('title')
-    {{trans('messages.model_list', ['operator' => __('messages.attributes.offers')])}}
+    {{trans('messages.model_list', ['operator' => __('messages.attributes.products')])}}
 @stop
 
 @section('content')
@@ -13,7 +13,7 @@
     @endpush
 
 @section('toolbar')
-    @include('layouts.commons.toolbar', ['current' => trans('messages.model_list', ['operator' => __('messages.attributes.offers')])])
+    @include('layouts.commons.toolbar', ['current' => trans('messages.model_list', ['operator' => __('messages.attributes.products')])])
 @stop
 
 <!--begin::Card-->
@@ -22,7 +22,6 @@
     <div class="card-header border-0 pt-6">
         <!--begin::Card title-->
         <div class="card-title">
-            @include('backend_views.offers.partials.search')
         </div>
         <!--begin::Card title-->
         <!--begin::Card toolbar-->

@@ -40,7 +40,9 @@ Route::get('/products/{slug}', function ($slug) {
 Route::get('/categories/{slug}', function ($slug) {
     return view('web.categories.' . $slug);
 });
-
+Route::get('/subcategories/{slug}', function ($slug) {
+    return view('web.subcategories.' . $slug);
+});
 Route::get('/portfolio', 'WebController@downloadPortfolio');
 
 Route::get('/our-certifications', function () {

@@ -1,5 +1,5 @@
 <div data-kt-menu-trigger="click"
-     class="menu-item menu-accordion {{ Request::is($guard.'/states*') || Request::is($guard.'/categories*') || Request::is($guard.'/services*') ||
+     class="menu-item menu-accordion {{ Request::is($guard.'/merchants*') ||Request::is($guard.'/offers*') || Request::is($guard.'/subcategories*') || Request::is($guard.'/categories*') || Request::is($guard.'/services*') ||
 Request::is($guard.'/admins*') || Request::is($guard.'/roles*') || Request::is($guard.'/permissions*') ? 'here hover show' : '' }}">
 											<span class="menu-link">
 												<span class="menu-icon">
@@ -20,83 +20,51 @@ Request::is($guard.'/admins*') || Request::is($guard.'/roles*') || Request::is($
 												<span class="menu-arrow"></span>
 											</span>
     <div class="menu-sub menu-sub-accordion menu-active-bg">
+        
         <div class="menu-item">
-            <a class="menu-link {{ Request::is($guard.'/states*') ? 'active' : '' }}"
-               href="{{route($guard.'.states.index')}}">
+            <a class="menu-link {{ Request::is($guard.'/subcategories*') ? 'active' : '' }}"
+               href="{{route($guard.'.subcategories.index')}}">
 										<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-                <span class="menu-title">{{trans('messages.attributes.states')}}</span>
+                <span class="menu-title">{{trans('messages.attributes.subcategories')}}</span>
             </a>
         </div>
-
         <div class="menu-item">
             <a class="menu-link {{ Request::is($guard.'/categories*') ? 'active' : '' }}"
                href="{{route($guard.'.categories.index')}}">
 										<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-                <span class="menu-title">{{trans('messages.attributes.categories_subcategories')}}</span>
+                <span class="menu-title">{{trans('messages.attributes.categories')}}</span>
             </a>
         </div>
         <div class="menu-item">
             <a class="menu-link {{ Request::is($guard.'/services*') ? 'active' : '' }}"
-               href="{{route($guard.'.services.index')}}">
+               href="{{route($guard.'.services.create')}}">
 										<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-                <span class="menu-title">{{trans('messages.attributes.services')}}</span>
+                <span class="menu-title">{{trans('messages.attributes.About-us')}}</span>
             </a>
         </div>
         <div class="menu-item">
-            <a class="menu-link {{ Request::is($guard.'/images*') ? 'active' : '' }}"
-               href="javascript:">
+            <a class="menu-link {{ Request::is($guard.'/merchants*') ? 'active' : '' }}"
+               href="{{route($guard.'.merchants.index')}}">
 										<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-                <span class="menu-title">{{trans('messages.attributes.images')}}</span>
+                <span class="menu-title">{{trans('messages.attributes.Markets')}}</span>
             </a>
         </div>
-        <div data-kt-menu-trigger="click"
-             class="menu-item menu-accordion {{ Request::is($guard.'/admins*') || Request::is($guard.'/roles*') || Request::is($guard.'/permissions*') ? 'here hover show' : '' }}">
-											<span class="menu-link">
-												<span class="menu-bullet">
+        <div class="menu-item">
+            <a class="menu-link {{ Request::is($guard.'/offers*') ? 'active' : '' }}"
+               href="{{route($guard.'.offers.index')}}">
+										<span class="menu-bullet">
 															<span class="bullet bullet-dot"></span>
 														</span>
-
-												<span
-                                                    class="menu-title">{{__('messages.attributes.administrators')}}</span>
-												<span class="menu-arrow"></span>
-											</span>
-            <div class="menu-sub menu-sub-accordion menu-active-bg">
-                <div class="menu-item">
-                    <a class="menu-link {{ Request::is($guard.'/admins*') ? 'active' : '' }}"
-                       href="{{route($guard.'.admins.index')}}">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-                        <span class="menu-title">{{trans('messages.attributes.admins')}}</span>
-                    </a>
-                </div>
-                <div class="menu-item">
-                    <a class="menu-link {{ Request::is($guard.'/roles*') ? 'active' : '' }}"
-                       href="{{route($guard.'.roles.index')}}">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-                        <span class="menu-title">{{trans('messages.attributes.roles')}}</span>
-                    </a>
-                </div>
-                <div class="menu-item">
-                    <a class="menu-link {{ Request::is($guard.'/permissions*') ? 'active' : '' }}"
-                       href="{{route($guard.'.permissions.index')}}">
-														<span class="menu-bullet">
-															<span class="bullet bullet-dot"></span>
-														</span>
-                        <span class="menu-title">{{trans('messages.attributes.permissions')}}</span>
-                    </a>
-                </div>
-            </div>
+                <span class="menu-title">{{trans('messages.attributes.Products')}}</span>
+            </a>
         </div>
     </div>
 </div>
